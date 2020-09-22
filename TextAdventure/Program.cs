@@ -8,6 +8,7 @@ namespace TextAdventure
         static string BirthMonth = "January";
         static string BirthDay = "1st";
         static string FavoriteColor = "blue";
+        static string FilmsAthletics = "football";
         static string EndStatement = "()";
 
         static void StartGame()
@@ -40,14 +41,35 @@ namespace TextAdventure
         {
             Console.WriteLine($"{PersonName}, what is your favorite color?");
             FavoriteColor = Console.ReadLine();
-            Console.WriteLine($"Thank you {PersonName}, I like {FavoriteColor} too!");
+            Console.WriteLine($"Thank you {PersonName}, {FavoriteColor} is a great color!");
         }
 
-        static void EndingStatement()
+        static void MoviesAndSports()
         {
-            Console.WriteLine($"Based on your feedback {PersonName}, I know that you were born on {BirthMonth} {BirthDay}, and your favorite color is {FavoriteColor}. Thank you for playing along on my Text Adventure!");
-        }
+            var ent1 = ("movies");
+            var ent2 = ("sports");
+            Console.WriteLine($"Do you prefer to watch either movies or sports for entertainment, {PersonName}?");
+            FilmsAthletics = Console.ReadLine();
 
+            if (FilmsAthletics == null || FilmsAthletics.Length == 0)
+            {
+                Console.WriteLine($"I am sorry to hear that you don't like either one, {PersonName}");
+            }
+            else if (FilmsAthletics == ent1)
+            {
+                Console.WriteLine($"{PersonName}, I also really enjoy watching movies!");
+            }
+            else if (FilmsAthletics == ent2)
+            {
+                Console.WriteLine($"{PersonName}, I also love watching sports!");
+            }
+        }
+             
+
+            static void EndingStatement()
+            {
+                Console.WriteLine($"Based on your feedback {PersonName}, I know that you were born on {BirthMonth} {BirthDay}, your favorite color is {FavoriteColor}, and you enjoy watching {FilmsAthletics} for entertainment. Thank you for playing along on my Text Adventure!");
+            }
         class Program
         {
             static void Main()
@@ -57,6 +79,7 @@ namespace TextAdventure
                 Game.MonthOfBirth();
                 Game.DayOfBirth();
                 Game.FavColor();
+                Game.MoviesAndSports();
                 Game.EndingStatement();
                 Console.ReadKey();
             }

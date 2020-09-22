@@ -10,3 +10,15 @@
 /Users/KevinChristy1/Projects/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.dll
 /Users/KevinChristy1/Projects/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.pdb
 /Users/KevinChristy1/Projects/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.genruntimeconfig.cache
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/bin/Debug/netcoreapp3.1/TextAdventure.deps.json
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/bin/Debug/netcoreapp3.1/TextAdventure.runtimeconfig.json
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/bin/Debug/netcoreapp3.1/TextAdventure.runtimeconfig.dev.json
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/bin/Debug/netcoreapp3.1/TextAdventure.dll
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/bin/Debug/netcoreapp3.1/TextAdventure.pdb
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.csprojAssemblyReference.cache
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.AssemblyInfoInputs.cache
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.AssemblyInfo.cs
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.csproj.CoreCompileInputs.cache
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.dll
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.pdb
+/Users/KevinChristy1/Desktop/repos/TextAdventure/TextAdventure/obj/Debug/netcoreapp3.1/TextAdventure.genruntimeconfig.cache
